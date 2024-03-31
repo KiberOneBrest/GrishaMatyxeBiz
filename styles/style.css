@@ -1,0 +1,97 @@
+body {
+    background-color: rgb(104, 0, 240);
+    
+}
+
+.main-header {
+    width: 100%;
+    max-width: 1000px;
+    background-color: rgb(238, 255, 0);
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 10px;
+
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.nav-list a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+main {
+    background-color: rgb(238, 255, 0);
+    width: 100%;
+    max-width:  1000px;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.main-img {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.gallery {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.gallery-item {
+    width: 23%;
+    margin: 0;
+    padding: 5px;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+.gallery-img {
+    width: 100%;
+    border-radius: 3px;
+}
+
+.gallery-item {
+    text-align: center;
+    color: brown;
+}
+form{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+}
+textarea{
+    grid-column: 1/-1;
+}
+
+form button {
+    grid-column: 1/-1;
+}
+
+.main-img {
+    transition: 0.5s;
+}
+
+.main-img:hover {
+   box-shadow: 0 0 50px rgb(104, 0, 240);
+}
+
+.gallery-img:hover {
+    box-shadow: 0 0 50px rgb(104, 0, 240);
+ }
+
+ .nav-item a:hover {
+    text-shadow: 0 0 20px rgb(104, 0, 240);
+ }
